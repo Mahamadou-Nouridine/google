@@ -1,0 +1,87 @@
+#entête{
+    display: flex;
+    justify-content: end;
+    height: 30px;
+    align-items: center;
+}
+#image, #icone, #boutton{
+    margin-left: 10px;
+}
+#google{
+    height: 100px;
+    width: 300px;
+    margin: auto
+
+}
+.google-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20vh;
+}
+#texte{
+    width: 450px;
+    margin-top: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background-image: url('googlei.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+footer{
+    display: flex;
+    flex-direction:column;
+    font-size: 0.75rem;
+    width: 90%;
+    align-self: center;
+    margin-top: 40vh;
+    position: absolute;
+    bottom: 20px
+}
+.feeling{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+#feeling_lucky, #google_search{
+    background-color: rgba(128, 128, 128, 0.185);
+    padding: 8px;
+    font-size: 12px;
+    border-radius: 3px;
+}
+#end{
+    display: flex;
+    justify-content: space-between;
+}
+#niger, #end{
+    background-color: rgba(128, 128, 128, 0.116);
+    margin-bottom: 1px;
+    height: 30px;
+}
+#onglet_bas{
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+}
+#onglet_bas_droite{
+    display: flex;
+    width: 300px;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 15px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+#niger{
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+#boutton{
+    background-color: rgba(10, 10, 240, 0.808);
+}
